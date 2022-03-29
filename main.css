@@ -1,0 +1,32 @@
+main{
+    background-color: aquamarine;
+    flex-grow: 1;
+    display: flex;
+}
+.content-container{
+    background-color: red;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.content-container h1{
+    display: flex;
+    flex-direction: column;
+    font-size: 8rem;
+    font-family: 'mulish';
+    line-height: 4.5rem;
+
+}
+.content-container h1 span{
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+.social-container{
+    background-color: blueviolet;
+    width: 48px;
+}
+.movie-title{
+    height: ;
+
+}

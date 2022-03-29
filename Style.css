@@ -1,0 +1,56 @@
+:root{
+    --red:#ff031A
+}
+body{
+    height:100vh;
+    background: linear-gradient(90deg, #000, #000E 30%, #000A 50%, #0000),
+        url(../image/background\ 1.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: right;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    padding:0 128px; 
+}
+
+header{
+background-color: aqua;
+height: 120px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo{
+
+}
+    
+}
+.links-container{
+    height: 36px;
+    background-color: blue;
+    display: flex;
+    gap: 40px;
+    font-family: "roboto", sans-serif;
+    font-weight: bold;
+    font-size: 1.;
+}
+.links-container a{
+    text-shadow: 2px 2px 2px #000;
+    padding: 10px 5px;
+    transition: all 5s;
+}
+.links-container a:houver{
+    background-color: firebrick;
+}
+
+main{
+     
+     flex-grow: 1;
+     background-color:blue;
+}
+footer{
+    
+    height: 80px;
+    background-color: brown;
+}
